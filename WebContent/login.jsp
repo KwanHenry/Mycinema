@@ -31,7 +31,7 @@ div {
 				<%
 					if (request.getAttribute("Error") != null) {
 				%>
-				<label><%=request.getAttribute("Error")%></label>
+				<label><%=request.getAttribute("Error")%>  </label>
 				<%
 					}
 				%>
